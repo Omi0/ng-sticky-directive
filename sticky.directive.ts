@@ -23,7 +23,7 @@ import { StickyConfig } from './sticky.config';
  * custom configs can be passed via [stickyConfig]
  *
  * EXAMPLE:
- * <div sticky [stickyConfig]="{class: 'custom-sticky-style', useDefaultStyle: false}"></div>
+ * <div sticky [stickyConfig]="{stuckClass: 'custom-sticky-style', useDefaultStyle: false}"></div>
  */
 @Directive({
   selector: '[sticky]'
